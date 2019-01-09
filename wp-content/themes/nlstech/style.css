@@ -1,0 +1,99 @@
+/*
+Theme Name: NLS Teach
+Theme URI: http://www.nlstech.net/
+Author: NLS Tech
+Author URI: http://www.nlstech.net/
+Description: NLS Tech theme
+Text Domain: nlstech.net
+--------------------------------------------------------------*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, input {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	box-sizing: border-box;
+	color: inherit;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+@font-face {
+	font-family: South Korea;
+	src: url(fonts/South-Korea.eot);
+	src: url(fonts/South-Korea.woff) format('woff'),
+		 url(fonts/South-Korea.ttf) format('truetype'),
+		 url(fonts/South-Korea.svg) format('svg');
+}
+@font-face {
+	font-family: Gotham;
+	src: url(fonts/GothamLight.eot);
+	src: url(fonts/GothamLight.woff) format('woff'),
+		 url(fonts/GothamLight.ttf) format('truetype'),
+		 url(fonts/GothamLight.svg) format('svg');
+	font-weight: 300;
+}
+@font-face {
+	font-family: Gotham;
+	src: url(fonts/GothamLightItalic.eot);
+	src: url(fonts/GothamLightItalic.woff) format('woff'),
+		 url(fonts/GothamLightItalic.ttf) format('truetype'),
+		 url(fonts/GothamLightItalic.svg) format('svg');
+	font-weight: 300;
+	font-style: italic;
+}
+@font-face {
+	font-family: Gotham Extra;
+	src: url(fonts/Gotham-Extra-Light.eot);
+	src: url(fonts/Gotham-Extra-Light.woff) format('woff'),
+		 url(fonts/Gotham-Extra-Light.ttf) format('truetype'),
+		 url(fonts/Gotham-Extra-Light.svg) format('svg');
+	font-weight: 300;
+}
+@font-face {
+	font-family: Gotham Book;
+	src: url(fonts/GothamBook.eot);
+	src: url(fonts/GothamBook.woff) format('woff'),
+		 url(fonts/GothamBook.ttf) format('truetype'),
+		 url(fonts/GothamBook.svg) format('svg');
+	font-weight: 400;
+}
