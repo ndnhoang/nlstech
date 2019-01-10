@@ -469,3 +469,10 @@ footer .phone-no {
 .list-out-team .elementor-image-box-wrapper:hover .elementor-image-box-content p {
 	color: #fff !important;
 }
+.skill-home {
+    padding-top: 20px;
+}
+.list-skill-home {
+    padding-top: 20px;
+    padding-bottom: 80px;
+}

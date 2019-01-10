@@ -26,7 +26,7 @@ define('DB_NAME', 'nlstech');
 define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'nlstech888');
+define('DB_PASSWORD', '');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
