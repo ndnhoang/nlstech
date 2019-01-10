@@ -32,8 +32,8 @@ add_action( 'after_setup_theme', 'nls_setup' );
  */
 function nls_widgets_init() {
 	register_sidebar( array(
-		'name'          => esc_html__( 'Iconic Vintage', 'nls' ),
-		'id'            => 'iconic_vintage',
+		'name'          => esc_html__( 'About us', 'nls' ),
+		'id'            => 'about_us_widget',
 		'description'   => esc_html__( 'Add widgets here.', 'nls' ),
 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</section>',
@@ -41,8 +41,8 @@ function nls_widgets_init() {
 		'after_title'   => '</h4>',
 	) );
     register_sidebar( array(
-		'name'          => esc_html__( 'Client Services', 'nls' ),
-		'id'            => 'client_services',
+		'name'          => esc_html__( 'Latest posts', 'nls' ),
+		'id'            => 'latest_posts_widget',
 		'description'   => esc_html__( 'Add widgets here.', 'nls' ),
 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</section>',
@@ -50,8 +50,8 @@ function nls_widgets_init() {
 		'after_title'   => '</h4>',
 	) ); 
 	register_sidebar( array(
-		'name'          => esc_html__( 'Contact Us', 'nls' ),
-		'id'            => 'contact_us',
+		'name'          => esc_html__( 'Find us', 'nls' ),
+		'id'            => 'find_us_widget',
 		'description'   => esc_html__( 'Add widgets here.', 'nls' ),
 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</section>',
@@ -63,6 +63,7 @@ add_action( 'widgets_init', 'nls_widgets_init' );
 //enqueue scripts
 function nls_scripts() {		
 	wp_enqueue_style( 'nls-style', get_stylesheet_uri() );
+	wp_enqueue_style( 'font-awesome.min.css', get_template_directory_uri().'/css/font-awesome.min.css' );
 	wp_enqueue_style( 'owl.carousel.min.css', get_template_directory_uri().'/css/owl.carousel.min.css' );
 	wp_enqueue_style( 'main.css', get_template_directory_uri().'/css/main.css' );
 	wp_enqueue_style( 'responsive.css', get_template_directory_uri().'/css/responsive.css' );

@@ -57,43 +57,48 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-@font-face {
-	font-family: South Korea;
-	src: url(fonts/South-Korea.eot);
-	src: url(fonts/South-Korea.woff) format('woff'),
-		 url(fonts/South-Korea.ttf) format('truetype'),
-		 url(fonts/South-Korea.svg) format('svg');
+a {
+    text-decoration: none;
+    outline: none;
+    -webkit-transition: all 0.6s ease-in-out;
+    -moz-transition: all 0.6s ease-in-out;
+    -ms-transition: all 0.6s ease-in-out;
+    -o-transition: all 0.6s ease-in-out;
+    transition: all 0.6s ease-in-out;
 }
-@font-face {
-	font-family: Gotham;
-	src: url(fonts/GothamLight.eot);
-	src: url(fonts/GothamLight.woff) format('woff'),
-		 url(fonts/GothamLight.ttf) format('truetype'),
-		 url(fonts/GothamLight.svg) format('svg');
-	font-weight: 300;
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    position: relative;
+    padding: 0;
 }
-@font-face {
-	font-family: Gotham;
-	src: url(fonts/GothamLightItalic.eot);
-	src: url(fonts/GothamLightItalic.woff) format('woff'),
-		 url(fonts/GothamLightItalic.ttf) format('truetype'),
-		 url(fonts/GothamLightItalic.svg) format('svg');
-	font-weight: 300;
-	font-style: italic;
+body, .price-table, .header span.tagline {
+    font-family: 'PT Sans', sans-serif;
+    color: #444444;
+    font-size: 14px;
+    line-height: 20px;
+    background: #fff;
 }
-@font-face {
-	font-family: Gotham Extra;
-	src: url(fonts/Gotham-Extra-Light.eot);
-	src: url(fonts/Gotham-Extra-Light.woff) format('woff'),
-		 url(fonts/Gotham-Extra-Light.ttf) format('truetype'),
-		 url(fonts/Gotham-Extra-Light.svg) format('svg');
-	font-weight: 300;
+a:hover, a:active {
+	color: #01c6d9;
 }
-@font-face {
-	font-family: Gotham Book;
-	src: url(fonts/GothamBook.eot);
-	src: url(fonts/GothamBook.woff) format('woff'),
-		 url(fonts/GothamBook.ttf) format('truetype'),
-		 url(fonts/GothamBook.svg) format('svg');
-	font-weight: 400;
+img {
+	max-width: 100%;
+}
+.elementor-column-gap-default>.elementor-row>.elementor-column>.elementor-element-populated {
+	padding: 0 !important;
+}
+.elementor-slick-slider .slick-dots-inside .slick-dots {
+	bottom: 10px !important;
+}
+.elementor-slick-slider ul.slick-dots li {
+	width: 17px !important;
+	height: 17px !important;
+	margin: 0 4px !important;
+}
+.elementor-slick-slider ul.slick-dots li button:before {
+	opacity: 1 !important;
+}
+.elementor-slick-slider ul.slick-dots li.slick-active button:before {
+	opacity: 1 !important;
 }

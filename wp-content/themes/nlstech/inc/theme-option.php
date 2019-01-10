@@ -166,15 +166,20 @@ if ( ! class_exists( 'nls_options' ) ) {
 						'type'     => 'text',
 						'title'    => __( 'Facebook', 'nls' ),
 					),
+					array(
+						'id'       => 'twitter',
+						'type'     => 'text',
+						'title'    => __( 'Twitter', 'nls' ),					
+                    ),
+                    array(
+						'id'       => 'google_plus',
+						'type'     => 'text',
+						'title'    => __( 'Google plus', 'nls' ),					
+                    ),
                     array(
 						'id'       => 'instagram',
 						'type'     => 'text',
 						'title'    => __( 'Instagram', 'nls' ),					
-                    ),
-                    array(
-						'id'       => 'social-email',
-						'type'     => 'text',
-						'title'    => __( 'Email', 'nls' ),					
                     )
 				)
 	    	);
